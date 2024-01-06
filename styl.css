@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: wheat;
+    padding: 20px;
+    position: fixed;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.links li{
+    padding-top: 15px;
+    margin: 0 25px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.fixo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    transition: .2s; 
+}
+.promocontact{
+    color: black;
+}
+
+.links a:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    transition: .2s;
+}
+section .cabe1{
+    text-align: center;
+    align-items: center;
+    color: white; 
+    box-shadow: rgba(0, 0, 0, 0.301) 5px 5px 5px;
+    padding-top: 9rem;
+    padding-bottom: 30px;
+}
+section .cabe2{
+    text-align: center;
+    align-items: center;
+    color: white; 
+    box-shadow: rgba(0, 0, 0, 0.301) 5px 5px 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+section .cabe3{
+    text-align: center;
+    align-items: center;
+    color: white; 
+    box-shadow: rgba(0, 0, 0, 0.301) 5px 5px 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+span{
+    color: red;
+}
+.calcas-calcao{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    padding-top:20px ;
+    background-color: wheat; 
+    text-align: center;  
+}
+.calca img{
+    border-radius: 5px;
+    margin: 10px;
+    width: 250px;
+    height:auto ;
+    box-shadow: rgba(0, 0, 0, 0.548) 3px 3px 3px ;
+}
+.calca img:hover{
+    background-color: black;
+    transform: .8s;
+    cursor: pointer;
+}
+ h3 {
+    font-size: 16px;      
+    color: black;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.377) 2px 2px 2px;  
+}
+h3:hover{
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.377) 3px 3px 3px; 
+    transition: .3s;
+}
+footer{
+   color: white;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+body{
+    background-color: black;
+}
